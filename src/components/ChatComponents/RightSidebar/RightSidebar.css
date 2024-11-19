@@ -1,0 +1,95 @@
+.rs-bar {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  background-color: #001030;
+  align-items: center;
+  width: 110%;
+  height: 80vh;
+}
+.rs-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  color: #fcfcfc;
+  border-bottom: 1px solid #e7e4e4;
+  padding-bottom: 20px;
+}
+.rs-profile h2 {
+  font-size: 26px;
+}
+.rs-profile p {
+  font-size: 14px;
+  color: #c6c6c6;
+}
+.rs-profile img {
+  border-radius: 50%;
+  width: 120px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  padding: 4px;
+  
+}
+
+.media-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-y: scroll;
+  padding: 4px;
+  gap: 4px;
+}
+.media-container img {
+  width: 50px;
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  border: 1px solid #e7e4e45c;
+  object-fit: cover;
+}
+.media h2 {
+  font-size: 18px;
+  color: #c6c6c6;
+  margin: 4px 10px;
+}
+.logout {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+  gap: 8px;
+  width: 100%;
+  margin-top: auto;
+  background-color: #031842;
+}
+.logout button {
+  text-align: center;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #002670;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+.logout button:hover {
+  background-color: #123376;
+}
+.logout a {
+  text-decoration: none;
+  color: #e7e4e4;
+}
+
+
+@media (max-width: 900px) {
+  .rs-bar {
+    display: none;
+   
+  }
+}
