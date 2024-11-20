@@ -172,4 +172,7 @@
   .chat-not-selected {
     display: none;
   }
+  .messageinput{
+    width: 100%;
+  }
 }
